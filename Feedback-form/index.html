@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--  -->
+</div>
+
+<div class="feedback-form">  
+<h1>Feedback Form</h1>
+  <div class="rating-container">
+    <span>Rate your experience:</span>
+    <div class="stars" onclick="handleRating(event)">
+      <span class="star" data-rating="1">🟌</span>
+      <span class="star" data-rating="2">🟌</span>
+      <span class="star" data-rating="3">🟌</span>
+      <span class="star" data-rating="4">🟌</span>
+      <span class="star" data-rating="5">🟌</span>
+    </div>
+  </div>
+  <textarea id="comments" placeholder="Enter your comments here"></textarea>
+  <label for="anonymous">Submit anonymously:</label>
+  <input type="checkbox" id="anonymous">
+  <br>
+  <label for="username">Your Name:</label>
+  <input type="text" id="username">
+  <br>
+  <button onclick="submitFeedback()">Submit</button> 
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
